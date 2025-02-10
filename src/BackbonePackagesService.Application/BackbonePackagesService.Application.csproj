@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BackbonePackagesService.Domain\BackbonePackagesService.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0"/>
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2"/>
+        <PackageReference Include="WoW2.Backbone.General.Exceptions.Catching" Version="8.0.0-alpha.0"/>
+        <PackageReference Include="WoW2.Backbone.General.Validations.FluentValidation" Version="8.0.0-alpha.2"/>
+    </ItemGroup>
+
+</Project>
