@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.General.Exceptions.Abstractions" Version="8.0.0-alpha.7"/>
+        <PackageReference Include="WoW2.Backbone.Language.Features.Serialization.Json.Newtonsoft.Converters" Version="8.0.0-alpha.0"/>
+        <PackageReference Include="WoW2.Backbone.DataAccess.Relational.Entities" Version="8.0.0-alpha.4"/>
+        <PackageReference Include="WoW2.Backbone.Comms.Infra.Abstractions" Version="8.0.0-alpha.7"/>
+        <PackageReference Include="WoW2.Backbone.Storage.Cache.Abstractions" Version="8.0.0-alpha.9"/>
+    </ItemGroup>
+
+</Project>

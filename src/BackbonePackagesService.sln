@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackbonePackagesService.Domain", "BackbonePackagesService.Domain\BackbonePackagesService.Domain.csproj", "{8990E7AA-CE17-4B3D-AE78-DC3537A0FC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackbonePackagesService.Application", "BackbonePackagesService.Application\BackbonePackagesService.Application.csproj", "{8B571054-C3AB-4FCF-B157-5053B288F27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackbonePackagesService.Infrastructure", "BackbonePackagesService.Infrastructure\BackbonePackagesService.Infrastructure.csproj", "{9F54DFAC-A458-4856-866A-0E4BD6B75AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackbonePackagesService.Persistence", "BackbonePackagesService.Persistence\BackbonePackagesService.Persistence.csproj", "{07B83F3B-45FE-4009-9718-C084D8029D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackbonePackagesService.Api", "BackbonePackagesService.Api\BackbonePackagesService.Api.csproj", "{D36E87CE-4ECA-4DD5-946F-D3010C8878F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8990E7AA-CE17-4B3D-AE78-DC3537A0FC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8990E7AA-CE17-4B3D-AE78-DC3537A0FC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8990E7AA-CE17-4B3D-AE78-DC3537A0FC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8990E7AA-CE17-4B3D-AE78-DC3537A0FC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B571054-C3AB-4FCF-B157-5053B288F27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B571054-C3AB-4FCF-B157-5053B288F27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B571054-C3AB-4FCF-B157-5053B288F27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B571054-C3AB-4FCF-B157-5053B288F27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F54DFAC-A458-4856-866A-0E4BD6B75AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F54DFAC-A458-4856-866A-0E4BD6B75AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F54DFAC-A458-4856-866A-0E4BD6B75AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F54DFAC-A458-4856-866A-0E4BD6B75AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B83F3B-45FE-4009-9718-C084D8029D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B83F3B-45FE-4009-9718-C084D8029D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B83F3B-45FE-4009-9718-C084D8029D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B83F3B-45FE-4009-9718-C084D8029D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36E87CE-4ECA-4DD5-946F-D3010C8878F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36E87CE-4ECA-4DD5-946F-D3010C8878F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36E87CE-4ECA-4DD5-946F-D3010C8878F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36E87CE-4ECA-4DD5-946F-D3010C8878F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

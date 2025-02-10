@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BackbonePackagesService.Application\BackbonePackagesService.Application.csproj" />
+      <ProjectReference Include="..\BackbonePackagesService.Persistence\BackbonePackagesService.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1"/>
+        <PackageReference Include="Microsoft.Owin.StaticFiles" Version="4.2.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.General.CoreApp.Abstractions" Version="8.0.0-alpha.0"/>
+        <PackageReference Include="WoW2.Backbone.Language.Features.Serialization.Json.Abstractions" Version="8.0.0-alpha.1"/>
+        <PackageReference Include="WoW2.Backbone.General.Validations.FluentValidation" Version="8.0.0-alpha.4"/>
+        <PackageReference Include="WoW2.Backbone.General.DependencyInjection.Abstractions" Version="8.0.0-alpha.0"/>
+        <PackageReference Include="WoW2.Backbone.Documentations.TextTemplates.Abstractions" Version="8.0.0-alpha.0"/>
+        <PackageReference Include="WoW2.Backbone.Storage.File.ContentType.Abstractions" Version="8.0.0-alpha.0"/>
+    </ItemGroup>
+    
+</Project>
