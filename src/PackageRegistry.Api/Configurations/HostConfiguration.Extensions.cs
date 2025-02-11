@@ -8,8 +8,6 @@ using Backbone.General.DependencyInjection.Abstractions.Attributes;
 using Backbone.Language.Core.Time.Provider.Basic.DependencyInjection.Configurations;
 using Backbone.Language.Features.Serialization.Json.Newtonsoft.DependencyInjection.Configurations;
 using Backbone.Storage.Cache.InMemory.Lazy.DependencyInjection.Configurations;
-using BackbonePackagesService.Api.Middleware;
-using BackbonePackagesService.Api.Temporary;
 using BackbonePackagesService.Domain.Common.Temp.Enums;
 using BackbonePackagesService.Domain.Common.Temp.Extensions;
 using FluentValidation;
@@ -17,9 +15,12 @@ using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Octokit;
+using PackageRegistry.Api.Middleware;
+using PackageRegistry.Api.Temporary;
 using Serilog;
 
-namespace BackbonePackagesService.Api.Configurations;
+namespace PackageRegistry.Api.Configurations;
 
 public static partial class HostConfiguration
 {
@@ -119,14 +120,16 @@ public static partial class HostConfiguration
     {
         // Add a mediator pipeline with MediatR
         builder.Services
-            .AddMediatRServices(Assemblies, (mediatorConfiguration, _) => mediatorConfiguration.AddMediatRPipelineBehaviors())
+            .AddMediatRServices(Assemblies,
+                (mediatorConfiguration, _) => mediatorConfiguration.AddMediatRPipelineBehaviors())
             .AddMediatorWithMediatR();
 
         // Add a mediator pipeline with MassTransit and in-memory event bus
         builder.Services
             .AddMassTransitServices(
                 Assemblies,
-                consumerType => !consumerType.GetCustomAttributes(typeof(ExcludeFromAutoRegistrationAttribute), true).Any(),
+                consumerType => !consumerType.GetCustomAttributes(typeof(ExcludeFromAutoRegistrationAttribute), true)
+                    .Any(),
                 (config, _) => config.AddInMemoryEventBusWithMassTransit(builder.Services, true));
 
         return builder;
@@ -188,6 +191,17 @@ public static partial class HostConfiguration
     {
         // Register settings
         builder.Services.AddBasicTextTemplatesInfrastructure(builder.Configuration);
+
+        return builder;
+    }
+
+    /// <summary>
+    /// Registers github integration
+    /// </summary>
+    public static WebApplicationBuilder AddGithubIntegration(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddScoped<GitHubClient>(_ =>
+            new GitHubClient(new ProductHeaderValue("BackbonePackagesService", "v1")));
 
         return builder;
     }

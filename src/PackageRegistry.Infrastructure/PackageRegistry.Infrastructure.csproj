@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BackbonePackagesService.Application\BackbonePackagesService.Application.csproj" />
-      <ProjectReference Include="..\BackbonePackagesService.Persistence\BackbonePackagesService.Persistence.csproj" />
+      <ProjectReference Include="..\PackageRegistry.Application\PackageRegistry.Application.csproj" />
+      <ProjectReference Include="..\PackageRegistry.Persistence\PackageRegistry.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>

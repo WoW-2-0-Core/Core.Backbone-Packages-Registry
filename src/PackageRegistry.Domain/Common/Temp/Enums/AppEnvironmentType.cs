@@ -1,4 +1,4 @@
-namespace BackbonePackagesService.Domain.Common.Temp.Enums;
+namespace PackageRegistry.Domain.Common.Temp.Enums;
 
 /// <summary>
 /// Defines app environment types.

@@ -1,6 +1,6 @@
-using BackbonePackagesService.Domain.Common.Temp.Enums;
+using PackageRegistry.Domain.Common.Temp.Enums;
 
-namespace BackbonePackagesService.Domain.Common.Temp.Extensions;
+namespace PackageRegistry.Domain.Common.Temp.Extensions;
 
 /// <summary>
 /// Contains extensions for environment

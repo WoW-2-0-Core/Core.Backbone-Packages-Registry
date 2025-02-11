@@ -1,4 +1,4 @@
-namespace BackbonePackagesService.Api.Configurations;
+namespace PackageRegistry.Api.Configurations;
 
 public static partial class HostConfiguration
 {
@@ -18,6 +18,7 @@ public static partial class HostConfiguration
             .AddPersistence()
             .AddValidators()
             .AddTemplatesInfrastructure()
+            .AddGithubIntegration()
             .AddDevTools()
             .AddExposers()
             .AddCustomCors();

@@ -1,7 +1,7 @@
 ﻿// using Microsoft.EntityFrameworkCore;
 // using Microsoft.Extensions.Options;
 //
-// namespace BackbonePackagesService.Api.Configurations;
+// namespace PackageRegistry.Api.Configurations;
 //
 // /// <summary>
 // /// Provides extensions for database migration.

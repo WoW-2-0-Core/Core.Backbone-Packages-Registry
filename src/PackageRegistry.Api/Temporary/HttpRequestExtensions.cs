@@ -1,7 +1,7 @@
 using System.Text;
 using Newtonsoft.Json;
 
-namespace BackbonePackagesService.Api.Temporary;
+namespace PackageRegistry.Api.Temporary;
 
 /// <summary>
 /// Provides extension methods for http requests.
