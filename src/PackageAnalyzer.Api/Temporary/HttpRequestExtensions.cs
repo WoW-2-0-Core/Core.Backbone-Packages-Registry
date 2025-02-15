@@ -1,7 +1,7 @@
 using System.Text;
 using Newtonsoft.Json;
 
-namespace PackageRegistry.Api.Temporary;
+namespace PackageAnalyzer.Api.Temporary;
 
 /// <summary>
 /// Provides extension methods for http requests.

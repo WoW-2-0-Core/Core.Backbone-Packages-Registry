@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PackageRegistry.Application\PackageRegistry.Application.csproj" />
-      <ProjectReference Include="..\PackageRegistry.Persistence\PackageRegistry.Persistence.csproj" />
+      <ProjectReference Include="..\PackageAnalyzer.Application\PackageAnalyzer.Application.csproj" />
+      <ProjectReference Include="..\PackageAnalyzer.Persistence\PackageAnalyzer.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>

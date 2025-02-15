@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace PackageRegistry.Api.Middleware;
+namespace PackageAnalyzer.Api.Middleware;
 
 /// <summary>
 /// Represents a global exception filter.

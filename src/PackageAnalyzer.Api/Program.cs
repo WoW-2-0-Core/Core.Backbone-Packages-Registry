@@ -1,4 +1,4 @@
-using PackageRegistry.Api.Configurations;
+using PackageAnalyzer.Api.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 await builder.ConfigureAsync();

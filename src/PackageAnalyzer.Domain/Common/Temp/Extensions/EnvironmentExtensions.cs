@@ -1,6 +1,6 @@
-using PackageRegistry.Domain.Common.Temp.Enums;
+using PackageAnalyzer.Domain.Common.Temp.Enums;
 
-namespace PackageRegistry.Domain.Common.Temp.Extensions;
+namespace PackageAnalyzer.Domain.Common.Temp.Extensions;
 
 /// <summary>
 /// Contains extensions for environment

@@ -7,7 +7,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace PackageRegistry.Api.Middleware;
+namespace PackageAnalyzer.Api.Middleware;
 
 public class ExceptionFormatter
 {

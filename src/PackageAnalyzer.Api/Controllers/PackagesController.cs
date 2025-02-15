@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Octokit;
 
-namespace PackageRegistry.Api.Controllers;
+namespace PackageAnalyzer.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

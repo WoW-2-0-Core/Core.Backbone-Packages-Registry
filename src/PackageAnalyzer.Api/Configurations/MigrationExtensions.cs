@@ -1,7 +1,7 @@
 ﻿// using Microsoft.EntityFrameworkCore;
 // using Microsoft.Extensions.Options;
 //
-// namespace PackageRegistry.Api.Configurations;
+// namespace PackageAnalyzer.Api.Configurations;
 //
 // /// <summary>
 // /// Provides extensions for database migration.

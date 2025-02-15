@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PackageRegistry.Infrastructure\PackageRegistry.Infrastructure.csproj" />
+      <ProjectReference Include="..\PackageAnalyzer.Infrastructure\PackageAnalyzer.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

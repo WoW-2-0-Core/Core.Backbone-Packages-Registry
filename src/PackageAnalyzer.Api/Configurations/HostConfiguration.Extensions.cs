@@ -8,19 +8,19 @@ using Backbone.General.DependencyInjection.Abstractions.Attributes;
 using Backbone.Language.Core.Time.Provider.Basic.DependencyInjection.Configurations;
 using Backbone.Language.Features.Serialization.Json.Newtonsoft.DependencyInjection.Configurations;
 using Backbone.Storage.Cache.InMemory.Lazy.DependencyInjection.Configurations;
-using BackbonePackagesService.Domain.Common.Temp.Enums;
-using BackbonePackagesService.Domain.Common.Temp.Extensions;
 using FluentValidation;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Octokit;
-using PackageRegistry.Api.Middleware;
-using PackageRegistry.Api.Temporary;
+using PackageAnalyzer.Api.Middleware;
+using PackageAnalyzer.Api.Temporary;
+using PackageAnalyzer.Domain.Common.Temp.Enums;
+using PackageAnalyzer.Domain.Common.Temp.Extensions;
 using Serilog;
 
-namespace PackageRegistry.Api.Configurations;
+namespace PackageAnalyzer.Api.Configurations;
 
 public static partial class HostConfiguration
 {

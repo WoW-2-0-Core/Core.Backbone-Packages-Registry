@@ -1,6 +1,6 @@
-using BackbonePackagesService.Domain.Common.Temp.Enums;
+using PackageAnalyzer.Domain.Common.Temp.Enums;
 
-namespace PackageRegistry.Api.Temporary;
+namespace PackageAnalyzer.Api.Temporary;
 
 /// <summary>
 /// Represents app settings.

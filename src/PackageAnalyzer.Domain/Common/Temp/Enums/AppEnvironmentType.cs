@@ -1,4 +1,4 @@
-namespace PackageRegistry.Domain.Common.Temp.Enums;
+namespace PackageAnalyzer.Domain.Common.Temp.Enums;
 
 /// <summary>
 /// Defines app environment types.

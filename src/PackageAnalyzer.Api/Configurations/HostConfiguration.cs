@@ -1,4 +1,4 @@
-namespace PackageRegistry.Api.Configurations;
+namespace PackageAnalyzer.Api.Configurations;
 
 public static partial class HostConfiguration
 {
